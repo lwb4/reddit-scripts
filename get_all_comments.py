@@ -6,6 +6,11 @@ import sys
 import operator
 import r_tools
 
+# usage:
+# python get_all_comments.py redditusername
+# this program scans all the comments they have ever made,
+# scans through, and outputs a list of their top 50 most common used words
+
 user = sys.argv[1]
 after = ''
 word_bank = []
