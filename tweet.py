@@ -1,3 +1,6 @@
+# Join the community! https://www.reddit.com/r/redditscripting/
+# (A community of one is still a community, right?)
+
 # This script connects to a streaming endpoint using the Tweepy library
 # Streaming APIs: https://dev.twitter.com/streaming/overview
 # I used that instead of constantly polling the REST API.
