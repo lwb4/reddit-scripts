@@ -21,7 +21,6 @@ for comment in r.subreddit('all').stream.comments():
         match = re.search(regex, comment.body)
         if match:
             
-            print str(not(comment.subreddit.over18))
             sub = r.subreddit(match.group(1))
             
             # just catch all exceptions, print them to the screen, and keep going
