@@ -1,4 +1,5 @@
 # this script cross-posts submissions in which the TOP LEVEL COMMENT references another sub
+# NOTE: you WILL be rate limited to posting submissions only once every ten minutes
 
 import praw
 import re
