@@ -41,7 +41,6 @@ user = {
 
 def get_access_token(user):
     client_auth = requests.auth.HTTPBasicAuth(user["client_id"], user["client_secret"])
-    client_auth = requests.auth.HTTPBasicAuth(user["client_id"], user["client_secret"])
     post_data = {"grant_type": "password", "username": user["username"], "password": user["password"]}
     headers = {"User-Agent": user_agent}
     response = requests.post("https://www.reddit.com/api/v1/access_token", auth=client_auth, data=post_data, headers=headers)
